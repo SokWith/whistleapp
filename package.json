@@ -1,10 +1,15 @@
 {
-  "dependencies": {
-    "whistle": "^2.8.0"
-  }
-}
-{
+  "name": "whistle-on-glitch",
+  "version": "1.0.0",
+  "description": "A project to deploy Whistle on Glitch",
+  "main": "start.js",
   "scripts": {
     "start": "node start.js"
+  },
+  "dependencies": {
+    "whistle": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
